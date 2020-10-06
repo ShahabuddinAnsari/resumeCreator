@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.coverLetter {
+    padding: 18px;
+    width: 100%;
+    background-color: #071f34e6;
+    color: white;
+}
+
+.fullName {
+    margin: 0;
+}
+
+.jobTitle {
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: start;
+    font-size: 0.8em;
+}
+
+.sectionLeft, .sectionRight {
+    width: 48%;
+    /* margin: 12px; */
+}
+
+.main .sectionLeft, .main .sectionRight {
+    margin: 0 8px;
+}
+
+/* .sectionRight {
+    width: 48%;
+} */
+
+.sectionRight a, .sectionLeft a {
+    color: white;
+}
+
+.flexDisplay {
+    display: flex;
+    padding: 3px 0;
+}
+
+/* //---------------------- MAIN */
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.experience-duration {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: rgb(4, 73, 138);
+    font-size: 0.8em;
+}
+
+.main h3 {
+    margin-bottom: 0;
+}
+
+.main p {
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 0;
+}
