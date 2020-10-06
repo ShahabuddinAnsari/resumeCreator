@@ -3,8 +3,11 @@ body {
     padding: 0;
     font-size: 16px;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Exo', sans-serif;}
+
+/* div {
+    margin: 0;
+} */
 
 .coverLetter {
     padding: 18px;
@@ -27,7 +30,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    margin: 24px;
+    /* margin: 24px; */
+    padding: 0 12px;
 }
 
 .links {
@@ -36,13 +40,20 @@ body {
     font-size: 0.8em;
 }
 
-.sectionLeft, .sectionRight {
+/* .sectionLeft, .sectionRight {
     width: 48%;
-    /* margin: 12px; */
+} */
+
+.sectionLeft {
+    width: 65%;
+}
+
+.sectionRight {
+    width: 32%;
 }
 
 .main .sectionLeft, .main .sectionRight {
-    margin: 0 8px;
+    /* margin: 0 8px; */
 }
 
 /* .sectionRight {
@@ -62,7 +73,7 @@ body {
 .main {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: stretch;
     flex-flow: row;
 }
 
