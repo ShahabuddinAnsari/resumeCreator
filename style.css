@@ -15,6 +15,7 @@ body {
     background-color: #071f34e6;
     color: white;
     position: relative;
+    height: 150px;
 }
 
 .fullName {
@@ -54,7 +55,7 @@ body {
 }
 
 .main .sectionLeft, .main .sectionRight {
-    /* margin: 0 8px; */
+    margin: 0 10px;
 }
 
 /* .sectionRight {
@@ -100,7 +101,15 @@ ul {
 
 img {
     position: absolute;
-    width: 150px;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 8px;
+    top: 18px;
+    left: 300px;
+}
 
+.socialLinks {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    padding-top: 18px;
 }
