@@ -113,3 +113,28 @@ img {
     right: 12px;
     padding-top: 18px;
 }
+
+.experience-2 {
+    display: none;
+}
+
+.fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
