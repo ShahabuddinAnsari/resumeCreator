@@ -1,13 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 15px;
     box-sizing: border-box;
-    font-family: 'Exo', sans-serif;}
+    font-family: 'arial', sans-serif;
+}
 
 /* div {
     margin: 0;
 } */
+
+.profilePhoto {
+    display: none;
+}
 
 .coverLetter {
     padding: 18px;
@@ -15,7 +20,7 @@ body {
     background-color: #071f34e6;
     color: white;
     position: relative;
-    height: 150px;
+    height: 102px;
 }
 
 .fullName {
@@ -115,10 +120,14 @@ img {
 }
 
 .experience-2 {
-    display: none;
+    /* display: none; */
 }
 
 i {
     margin-right: 8px;
     font-size: 1.8em;
+}
+
+.socialNetworks {
+    display: flex;
 }
